@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memegenbot", "Memegenbot\Memegenbot.csproj", "{4AAD5F95-4262-438F-983B-4C170B697203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memegenbot.Tests", "Memegenbot.Tests\Memegenbot.Tests.csproj", "{0B2850A9-62BE-41ED-8CBA-35F341113ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memegenbot.WebApi", "Memegenbot.WebApi\Memegenbot.WebApi.csproj", "{30D33979-4B62-4942-A425-D3058E03FEED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Run Configurations", "Run Configurations", "{115FEFC3-4AED-457D-AF25-F623D43A156E}"
+ProjectSection(SolutionItems) = preProject
+	.run\Publish Memegenbot.WebApi to Azure.run.xml = .run\Publish Memegenbot.WebApi to Azure.run.xml
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AAD5F95-4262-438F-983B-4C170B697203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAD5F95-4262-438F-983B-4C170B697203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAD5F95-4262-438F-983B-4C170B697203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAD5F95-4262-438F-983B-4C170B697203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2850A9-62BE-41ED-8CBA-35F341113ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2850A9-62BE-41ED-8CBA-35F341113ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2850A9-62BE-41ED-8CBA-35F341113ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2850A9-62BE-41ED-8CBA-35F341113ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D33979-4B62-4942-A425-D3058E03FEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D33979-4B62-4942-A425-D3058E03FEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D33979-4B62-4942-A425-D3058E03FEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D33979-4B62-4942-A425-D3058E03FEED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
